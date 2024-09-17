@@ -1,0 +1,60 @@
+body {
+    background-color: #050A44;
+    color:white;
+    font-family: georgia;
+    font-size: 20px;
+}
+
+.container  {
+display:flex;
+justify-content: center;
+gap: 15px;
+margin: 0 auto;
+max-width: 100%; 
+height: auto;
+flex-wrap: wrap;
+cursor: pointer;
+
+}
+
+.card {
+background-color: rgb(211, 29, 165);
+padding: 25px;
+width: 325px;
+border:none;
+border-radius: 6px;
+}
+
+.card:hover {
+transform: translateY(-5px); /* Moves the card up slightly */
+background-color: red; /* Change background color to red on hover */
+box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Increases shadow on hover */
+}
+.card:nth-child(n+7) {
+display: none; /* Hide cards beyond the first 4 */
+background-color: green;
+
+}
+
+.card:hover {
+transform: translateY(-5px); /* Moves the card up slightly */
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Increases shadow on hover */
+}
+
+h2 {
+text-align: center;
+}
+
+.card img{
+width: 200px;
+border: 3px solid white;
+border-radius: 50%;
+height:auto;
+display: block;
+margin: 0 auto;
+}
+
+img.ghan {
+    width: 220px;
+    height: 200px;
+}
