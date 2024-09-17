@@ -5,4 +5,4 @@
 ![Hovering](https://github.com/user-attachments/assets/f17a37fc-0993-41b1-b0f5-a13b6e96872f)
 ![After Hovering](https://github.com/user-attachments/assets/f7cf5886-6c06-44eb-85de-789296848741)
 # Responsive-Cards
-This is a Responsive Card Project where the card changes its background color onnce the mouse is hovered on a individual card.
+This is a Responsive Card Project where the card changes its background color once the mouse is hovered on a individual card and Moves the card up slightly above the others due to transformation.
